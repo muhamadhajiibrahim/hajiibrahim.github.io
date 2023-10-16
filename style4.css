@@ -1,0 +1,88 @@
+/* FLEXBOX */
+
+.container > div{
+    background-color: salmon;
+    margin: 10px;
+    font-size: 30px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    height: 100px;
+}
+
+.container{
+    background-color: khaki;
+    display: flex;
+}
+
+/* PROPERTY FLEXBOT :
+    1. FLEX-DIRECTION
+    2. FLEX-WRAP
+    3. FLEX-FLOW
+    4. JUSTIFY-CONTENT
+    5. ALIGN-ITEMS
+    6. ALIGN-CONTENT
+    7. DLL.
+     */
+
+/* FLEX-DIRECTION */
+
+.container{
+    /* flex-direction: column; */
+}
+
+/* FLEX-WRAP */
+
+.container{
+    /* flex-wrap: wrap; */
+}
+
+/* FLEX-FLOW */
+/* GABUNGAN ANTARA FLEX DIRECTION DAN FLEX WRAP (SHORTHAND) */
+
+.container{
+    /* flex-flow: row wrap; */
+}
+
+/* JUSTIFY CONTENT */
+/* 
+    center
+    space-around
+    space-between
+    space-evenly
+    start
+    end
+    flex-start
+    flex-end
+    right
+    left
+*/
+
+.container{
+    /* justify-content: space-around; */
+}
+
+/* ALIGN-ITEMS */
+/*  
+    baseline
+    stretch
+    flext-start
+    flext-end
+    center
+*/
+.container{
+    /* height: 200px;
+    align-items:  baseline; */
+}
+
+/* ALIGN CONTAINT */
+
+.container{
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
